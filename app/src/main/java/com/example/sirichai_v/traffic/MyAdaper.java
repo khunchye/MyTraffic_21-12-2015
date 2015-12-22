@@ -22,7 +22,7 @@ public class MyAdaper extends BaseAdapter{
         this.objContext = objContext;
         this.titleStrings = titleStrings;
         this.detailStrings = detailStrings;
-        this.inconInts = inconInts
+        this.inconInts = inconInts;
 
     }   // Constructor
 
@@ -53,7 +53,7 @@ public class MyAdaper extends BaseAdapter{
         titleTextView.setText(titleStrings[position]);
 
         //For Detail
-        TextView detailTextView = (TextView) objView.findViewById(R.id.textView3)
+        TextView detailTextView = (TextView) objView.findViewById(R.id.textView3);
         detailTextView.setText(detailStrings[position]);
 
         //For Icon
@@ -62,7 +62,7 @@ public class MyAdaper extends BaseAdapter{
 
         return objView;
 
-        return null;
+
     }
 }   //Main Class
 
